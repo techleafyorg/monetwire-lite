@@ -133,6 +133,9 @@ Lite is free and stays free. It covers consent, banners and interstitials.
 - A debug screen
 - Updates for every Google SDK and policy change
 
+Pro isn't out yet. If you want it, [join the waitlist](https://buy.polar.sh/polar_cl_O4YpFP9qTJuBdnA2eVNIxs0ng0kw3ZhBsZ4vf3IvcUG).
+It's free, you get one email when it launches, and the waitlist gets 30% off.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
