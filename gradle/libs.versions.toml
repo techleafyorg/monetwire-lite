@@ -1,0 +1,19 @@
+[versions]
+agp = "9.0.1"
+# Next-Gen Mobile Ads SDK. Google calls it the preferred SDK for Android; the old
+# play-services-ads line loses support in June 2027.
+adsMobileSdk = "1.7.0"
+ump = "4.0.0"
+
+compileSdk = "36"
+targetSdk = "36"
+# Both SDKs need 24 now.
+minSdk = "24"
+
+[libraries]
+ads-mobile-sdk = { module = "com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk", version.ref = "adsMobileSdk" }
+ump = { module = "com.google.android.ump:user-messaging-platform", version.ref = "ump" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
