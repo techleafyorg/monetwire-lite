@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MonetWire sample</string>
+
+    <!-- Google's test IDs. Swap in your own from the AdMob console before release. -->
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_unit_id" translatable="false">ca-app-pub-3940256099942544/9214589741</string>
+    <string name="interstitial_unit_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="intro">Tap \"Next item\" a couple of times, then \"Take a break\". An interstitial shows only when the rules allow it: at least two actions since the last one, a minute apart, five per session at most. Otherwise the break just carries on without an ad.</string>
+    <string name="next_item">Next item</string>
+    <string name="take_break">Take a break</string>
+    <string name="privacy_options">Privacy options</string>
+    <string name="reset_consent">Reset consent (testing)</string>
+    <string name="actions">Items opened: %1$d</string>
+    <!-- "Do not consent" lands here too: Google still serves limited, non-personalized ads then. -->
+    <string name="consent_ok">Consent: answered, ads can load</string>
+    <string name="consent_no">Consent: no ads for now</string>
+    <string name="break_done">Back from the break</string>
+    <string name="reset_done">Consent cleared. Restart the app to see the form again.</string>
+</resources>
